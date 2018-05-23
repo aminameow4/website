@@ -6,10 +6,20 @@
 */
 
 a:visited {
-    color:#f4eac2;
+  text-indent: 50px;
+	color: #f4eac2;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #7d3037;
 }
 p {
     text-indent: 50px;
+	color: #f4eac2;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #7d3037;
 }
 p {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
@@ -21,6 +31,7 @@ div {
     margin: 25px;
 }
 body{
+ text-indent: 50px;
 	color: #f4eac2;
 	text-align: center;
 	text-align: justify;
@@ -30,4 +41,12 @@ body{
 div.altBG{
 	
 	background-color:#f4eac2;
+}
+h1{
+	 text-indent: 50px;
+	color: #f4eac2;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #7d3037;
 }
