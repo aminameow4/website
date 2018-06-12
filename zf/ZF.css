@@ -1,0 +1,19 @@
+body{
+	color: darkgray;
+	text-align: center;
+	text-align: justify;
+	font-size: 5
+}
+a:unvisited{
+	color: darkgray; 
+}
+a:visited{
+	color: darkgray; 
+}
+div {
+	background-color: #DAB0FF;
+	border-color:#F7FF74;
+    border: 25px solid #F7FF74;
+    padding: 25px;
+    margin: 25px;
+}
