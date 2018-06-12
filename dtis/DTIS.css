@@ -4,6 +4,9 @@ body{
 	text-align: justify;
 	font-size: 5
 }
+a:unvisited{
+	color: darkgray; 
+}
 a:visited{
 	color: darkgray; 
 }
