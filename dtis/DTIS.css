@@ -1,0 +1,16 @@
+body{
+	color: darkgray;
+	text-align: center;
+	text-align: justify;
+	font-size: 5
+}
+a:visited{
+	color: darkgray; 
+}
+div {
+	background-color: paleturquoise;
+    border: 25px solid #fe6761;
+    padding: 25px;
+    margin: 25px;
+	border-color:#fe6761;
+}
