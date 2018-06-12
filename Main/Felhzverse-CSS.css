@@ -1,0 +1,72 @@
+body{
+	color: antiquewhite;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+    background-image: url("../Images/trees.png");
+}
+a:visited {
+    color:antiquewhite;
+}
+p {
+    text-indent: 50px;
+}
+p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+div {
+	background-color: #C98252;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+/* People borders*/ 
+div.borderAlice{
+	
+	border-color:antiquewhite;
+}
+div.borderAmina{
+	
+	border-color:#fe6761;
+}
+div.borderChristine{
+	
+	border-color:white;
+}
+div.borderGianna{
+	
+	border-color:darkgreen;
+}
+div.borderKienen{
+	
+	border-color:#D25A7E;
+}
+div.borderShiro{
+	
+	border-color:#98ff98;
+}
+/* comic borders*/ 
+div.borderDGLITW{
+	
+	border-color:maroon;
+}
+div.borderZF{
+	
+	border-color:#F7FF74;
+}
+div.borderTDBU{
+	
+	border-color:#F7FF74;
+}
+div.borderLE{
+	
+	border-color:#F7FF74;
+}
+div.borderDTIS{
+	
+	border-color:#ff557f;
+}
+div.borderTAC{
+	
+	border-color:#F7FF74;
+}
