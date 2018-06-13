@@ -1,0 +1,19 @@
+body{
+	color: #04765c;
+	text-align: center;
+	text-align: justify;
+	font-size: 5
+}
+a:unvisited{
+	color: #04765c; 
+}
+a:visited{
+	color: #04765c; 
+}
+div {
+	background-color: #877A83;
+    border: 25px solid #8E3843;
+    padding: 25px;
+    margin: 25px;
+	border-color:#8E3843;
+}
