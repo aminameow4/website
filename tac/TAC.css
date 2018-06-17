@@ -1,19 +1,19 @@
 body{
-	color: darkgray;
+	color: #647A72;
 	text-align: center;
 	text-align: justify;
 	font-size: 5
 }
 a:unvisited{
-	color: darkgray; 
+	color: #647A72; 
 }
 a:visited{
-	color: darkgray; 
+	color: #647A72; 
 }
 div {
-	background-color: #FFCAB1;
-    border: 25px solid #659157;
+	background-color: #DAFFB4;
+    border: 25px solid #FC9144;
     padding: 25px;
     margin: 25px;
-	border-color:#659157;
+	border-color:#FC9144;
 }
