@@ -1,0 +1,54 @@
+/*#D2C2B3 pale gray
+/ #262219 gray 
+/ #FFFFF7 white 
+/ #6C97CC blue
+/ #795F3E brown
+*/
+
+a:visited {
+  text-indent: 50px;
+	color: #f4eac2;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #7d3037;
+}
+p {
+    text-indent: 50px;
+	color: #f4eac2;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #7d3037;
+}
+p {
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+div {
+	background-color: #794512;
+    border: 25px solid #451e21;
+    padding: 25px;
+    margin: 25px;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+body{
+ text-indent: 50px;
+	color: #f4eac2;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #7d3037;
+}
+div.altBG{
+	
+	background-color:#f4eac2;
+}
+#placeholder {
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size:80px;
+}
