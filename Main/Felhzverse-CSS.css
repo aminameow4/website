@@ -20,6 +20,13 @@ div {
     padding: 25px;
     margin: 25px;
 }
+/*uwo*/
+div.updates{
+	background-color: #96CAEC;
+    border: 25px solid #EBBFC0;
+    padding: 25px;
+    margin: 25px;
+}
 /* People borders*/ 
 div.borderAlice{
 	
@@ -70,3 +77,4 @@ div.borderTAC{
 	
 	border-color:#F7FF74;
 }
+/*I'm a sad bitch/*
