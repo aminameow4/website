@@ -22,7 +22,6 @@
 <!--td align="center"><a href="https://redbubble.com/"> <font size="5" color="C98252" face="arial"> Store </font></a></td--> 
 
 <td align="center"><a href="./Contact-Page.html"> <font size="5" color="C98252" face="arial"> Contact </font></a></td>
-<td align="center"><a href="./Chat-Page.html"> <font size="5" color="C98252" face="arial"> Chat </font></a></td>
 
 <td align="center"><a href="./Extra-Page.html"> <font size="5" color="C98252" face="arial"> Extra </font></a></td>
 </tr>
@@ -39,29 +38,50 @@
  </font> 
 </div>
 </center>
-
-<!-- follow--> 
-<table>
 <br>
+<!-- follow us--> 
+<div>
+<center><font size="8" face="arial" color="antiquewhite"><b><u>Follow us!</u></b></font></center>
 <center><br>
 <!--writscrib--> 
-<a href="https://www.writscrib.com/browse-groups/411-felhzverse"><img src="../Icons/Writscrib-Logo.jpg" height="200" width="200" alt="Writscrtib"></a>
+<a href="https://www.writscrib.com/browse-groups/411-felhzverse"><img src="../Icons/Writscrib-Logo.jpg" height="150" width="150" alt="Writscrtib" class="icon" ></a>
 <!-- tumblr-->
-<a href="http://www.felhzverse.tumblr.com/"><img src="../Icons/Tumblr-Logo.png" height="200" width="200" alt="Tumblr"></a>
+<a href="http://www.felhzverse.tumblr.com/"><img src="../Icons/Tumblr-Logo.png" class="icon" height="150" width="150"></a>
 <!-- tapas--> 
-<a href="https://tapas.io/duckmobile9614"><img src="../Icons/Tapas-Logo.png" height="200" width="200" alt="Tapas"></a>
+<a href="https://tapas.io/duckmobile9614"><img src="../Icons/Tapas-Logo.png" class="icon" height="150" width="150"></a>
 <!-- tapas--> 
-<a href="https://instagram.com/felhzverse"><img src="../Icons/Instagram-Logo.png" height="200" width="200" alt="Instagram"></a>
+<a href="https://instagram.com/felhzverse"><img src="../Icons/Instagram-Logo.png" class="icon" height="150" width="150"></a>
 </center>
-</table>
+<center><font size="8" face="arial" color="antiquewhite"><b><u>Contact us!</u></b></font></center>
+<!--Discord--> 
 <center>
-<!-- updates--> 
-<div>
+<iframe class="disc" src="https://discordapp.com/widget?id=436697498631929886&theme=dark" allowtransparency="true" width="65%" height="300" frameborder="0"></iframe>
+</center>
+<!-- email--> 
+<center>Felhzverse Email: <a href="mailto:felhzversecomics@gmail.com">felhzversecomics@gmail.com</a></center>
+</div>
+<!-- updates-->
+<!-- news button--> 
+<center><button type="button" onclick="News()">
+<font size="6"><b>Hide/Show Updates</b></font>
+</button></center>
+<center>
+<!-- news div-->
+<div id="news">
 <center><font size="8" face="arial" color="antiquewhite">News/Updates</font></center>
+<!-- June 27, 2018-->
+<div class="updates" style="width:80">
+<font face="arial" color="antiquewhite" size="5"><center>
+<b><u>Site Update- June 28, 2018</u></b>
+<br>
+Today I got rid of the chat page, and instead replaced it with our new Social Media section on the front page (located above). In addition, the Species Index was updated. 
+</center>
+</font>
+</div>
 <!-- June 26 2018--> 
 <div class="updates" style="width:80">
-<font face="arial" color="white" size="5"><center>
-<b><u>Update- June 26, 2018</u></b>
+<font face="arial" color="antiquewhite" size="5"><center>
+<b><u>Site Update- June 26, 2018</u></b>
 <br>
 Finally added the Species Index (located in <a href="./Extra-Page.html"><font face="arial" color="white" size="5">Extras</font></a>! You can go here to check out information on all the species in our stories, if any concepts confuse you, or perhaps you want to make characters of your own! In weeks to come, we'll hopefully have some character info up for people to read!
 </center>
@@ -69,17 +89,16 @@ Finally added the Species Index (located in <a href="./Extra-Page.html"><font fa
 </div>
 <!-- June 21 2018--> 
 <div class="updates" style="width:80">
-<font face="arial" color="white" size="5"><center>
-<b><u>Update- June 21, 2018</u></b>
+<font face="arial" color="antiquewhite" size="5"><center>
+<b><u>Site Update- June 21, 2018</u></b>
 <br>
 I'm going to start including logs of how the website's been updated here- today I added the contact page and made minor adjustments to the code in portraits on various user pages. -Amina
 </center>
 </font>
 </div>
-
 <!-- update template--> 
 <!--div class="updates" style="width:80">
-<font face="arial" color="white" size="5"><center>
+<font face="arial" color="antiquewhite" size="5"><center>
 <b><u>Update- Month X, 201X</b>
 <br>
 text
@@ -87,7 +106,21 @@ text
 </font>
 </div-->
 </div>
-
 </center>
+<!-- news button JS--> 
+<script>
+function News() {
+    var x = document.getElementById("news");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<br>
+<br>
+<br>
+<!-- end--> 
 </body> 
 </html>

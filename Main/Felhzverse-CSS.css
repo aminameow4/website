@@ -78,4 +78,23 @@ div.borderTAC{
 	
 	border-color:#F7FF74;
 }
+img.icon{
+	height:150;
+	width:150;
+	border: 5px solid green;
+	border-radius: 5%;
+}
+iframe.disc{
+	border: 20px solid antiquewhite;
+	border-radius: 5%;
+	resize: both;
+    overflow: auto;
+}
+button{
+background-color:green;
+text-align: center;
+border: 5px antiquewhite;
+color:antiquewhite;
+border-radius:10%;
+}
 /*I'm a sad bitch/*
