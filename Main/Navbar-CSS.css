@@ -7,7 +7,7 @@
   display:inline-block;
   padding: none; 
   width: 90%;
-  height:200;
+  height:10%;
 }
 
 /* The dropdown container */
@@ -20,7 +20,7 @@
   align-content: right;
   background-color: #AFD7B4;
   text-align: center;
-  height:10%;
+  height:5%;
   width: 7.5%; 
 }
 /*dropdown link*/
