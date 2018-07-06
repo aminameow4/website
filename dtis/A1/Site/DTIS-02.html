@@ -33,33 +33,17 @@
 <font face="Arial" size="5">Filler Caption</font></div>
 </div>
 </center>
-  <!--Next and previous buttons-->
-<center>
-<div>
-<tr>
- <td> <a href="../../DTIS-home.html"><font face="Arial" size="5"> First </font></a></td>
-	<td> | | | | </td>
- <td> <a href="../../DTIS-home.html"><font face="Arial" size="5"> Previous </font></a></td>
-	<td> | | | | </td>
- <td> <a href="./DTIS-03.html"><font face="Arial" size="5"> Next </font></a></td>
-	<td> | | | | </td>
- <td> <a href="./DTIS-03.html"><font face="Arial" size="5"> Latest </font></a></td>
-</tr>
-</div>
-</center>
+<!-- Next||Prev--> 
+<!--button JS-->
+<script src="../../../buttons/comic-pageButtons.js"></script>
+<!-- buttons-->
+	<center>
+<button type="button" id="first" onclick="window.location=first()">First</button>
+<button type="button" id="previous" onclick="previous()"> Previous</button>
+<button type="button" id="next" onclick="next()">Next</button>
+<button type="button" id="latest" onclick="latest()">Latest</button>
+	</center>
 
-<!-- test JS-->
-<div id="demo"></div>
-<div id="fuck"></div>
-<div id="test"></div>
-<script type="text/javascript">
-var x = location.href;
-document.getElementById("demo").innerHTML = x;
-var y = x.length;
-document.getElementById("fuck").innerHTML = y;
-var z = x.substr(60,y);
-document.getElementById("test").innerHTML = z;
-</script>
 <!-- end-->
 </body>
 </html>
