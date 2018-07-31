@@ -82,6 +82,12 @@ div.borderTAC{
 	
 	border-color:#F7FF74;
 }
+div.discordAd{
+	border: 10px solid white;
+	background-color:#7289DA;
+	padding: 10px;
+    margin: 10px;
+}
 img.icon{
 	height:150;
 	width:150;
