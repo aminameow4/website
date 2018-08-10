@@ -17,3 +17,8 @@ div {
     margin: 25px;
 	border-color:#8E3843;
 }
+iframe{
+	overflow: hidden;
+	width: 90%;
+	height: 500px; 
+}
