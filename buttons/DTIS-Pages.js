@@ -5,26 +5,28 @@
 //current pages: 3
 
 // Pages array (include links)
-var pageNumber = ["https://felhzverse.github.io/website/dtis/DTIS-home.html", "./DTIS-02.html", "./DTIS-03.html",];
+var pageNumber = ["https://felhzverse.github.io/website/dtis/DTIS-home.html", "https://felhzverse.github.io/website/dtis/A1/Site/DTIS-02.html", "https://felhzverse.github.io/website/dtis/A1/Site/DTIS-03.html",];
 var thisPage= location.href;  
-var latest= pageNumber.length; 
+var latest= pageNumber.length;
 //first button
 function first(){
-"use strict"; 	
-window.location=pageNumber[0]; 
+"use strict"; 
+	   	   window.location=pageNumber[0];  
 }
 
 //previous button
 function previous(){
 "use strict"; 
 //for loop
-  for(var x=0;x<pageNumber.length;x++){	
+  for(var x=0;x< pageNumber.length; x++){	
 //go to
  if(thisPage===(pageNumber[x])){ 
 		window.location=pageNumber[(x-1)];
+	 window.alert(pageNumber[x-1]); 
  }
 }
 }
+
 //next button
 function next(){
 "use strict"; 
@@ -37,6 +39,7 @@ function next(){
 		}
 	else{
 	 window.location=pageNumber[(x+1)];
+		window.alert(pageNumber[x+1]); 
  }
  }
 }
