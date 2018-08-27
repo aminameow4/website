@@ -63,17 +63,6 @@ function latest(){
 	   	   document.location=pageNumber[i]; 
 }
 
-//PAGE SHIT
-function altText() {
-	"use strict";
-    var desc = document.getElementById("page").alt;
-    window.alert(desc); 
-}
-
-document.getElementById("page").onclick = function() {
-"use strict"; 
-	altText();};
-
 //EXECUTE
 document.getElementById("first").onclick = function() {
 "use strict"; 

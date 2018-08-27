@@ -6,12 +6,12 @@
 <link rel="stylesheet" type="text/css" href="./DGLITW.css" >
 </head>
 <body bgcolor="#73668e" link="antiquewhite"> 
-<center> <font size = "24" color="white" face="arial" > Don't Get Lost in the Woods- Archive  <br> <a href="./DGLITW-home.html"><img src="../Images/trees.png" style="width:65%" alt="All Together.png"></a> </font> </center> 
+<center> <font size = "24" color="white" face="arial" > Don't Get Lost in the Woods- Archive  <br> <a href="./DGLITW-home.html"><img src="../Images/DGLITW-Banner.png" style="width:65%" alt="All Together.png"></a> </font> </center> 
 <!-- table start--> 
 <center> 
 <table colspan="7" align="left" valign="bottom" border="10" bordercolor="#6E2C00" bgcolor="#AFD7B4" height="50" style="width:100%">
 <tr>
-<td align="center"><a href="./DGLITW-home.html"> <font size="5" color="#C98252" face="arial">Comic  </font></a></td> 
+<td align="center"><a href="./DGLITW-home.html"> <font size="5" color="#C98252" face="arial">Home</font></a></td> 
 <td align="center"><a href="./DGLITW-about.html"> <font size="5" color="#C98252" face="arial">About</font></a></td> 
 <td align="center"><a href="./DGLITW-characters.html"> <font size="5" color="#C98252" face="arial">Characters</font></a></td> 
 <td align="center"><a href="./DGLITW-archive.html"> <font size="5" color="#C98252" face="arial">Archive</font></a></td> 
@@ -25,32 +25,44 @@
 	<br>
 <!-- start here-->
 <!-- first last -->
-<div><font face="Arial" size="5"><center>
-Looking for a specific page? Check here! 
+<div><font face="Arial" color="#04765c" size="6"><center>
+Lost? Re-find your place here! 
 <br>
-
-<a href="./DGLITW-home.html"><font face="Arial" size="5">First</font></a>
-	| 
-<a href="./A1/Site/DGLITW-3.html"><font face="Arial" size="5">Latest</font></a>
+<!-- JS--> 
+<script type="text/javascript">
+var thisPage= 0; 
+</script>
+<script src="../buttons/DGLITW-Pages.js"></script>
+	
+<!-- start page button-->
+<button type="button" id="first" class="archive" onclick="homeFirst()">First</button>
+||||
+<a href="A1/Pages/1.png"></a>	
+<!-- latest page button--> 
+<button type="button" id="latest" class="archive" onclick="homeLatest()">Latest</button>
 </center>
 </font> 
 </div>
 <br>
 <!-- actual archive--> 
+
+<div id="Find">
+<!--center><font size="7" face="Arial" color="#7BD457"><b><u>Comics By Chapter</u></b></font></center>
+<br>
 <center>
-<div>
-<a href="./DGLITW-home.html">
-<font face="Arial" size="5"><b><u> Chapter 1 </u></b></font></a>
-<font face="Arial" size="5">
-<br>
-<a href="./DGLITW-home.html"><font face="Arial" size="5">Page 1</font></a>
-<br>
-<a href="./A1/Site/DGLITW-2.html"><font face="Arial" size="5">Page 2</font></a>
-<br>
-<a href="./A1/Site/DGLITW-3.html"><font face="Arial" size="5">Page 3</font></a>
-<br>
-</font> 
-</div>
+<select class="archive">
+	<option value="1" onClick="homeFirst()">Page 1</option>
+<option value="2">Page 2</option>
+</select>
 </center>
+<br-->
+<center><font size="7" face="Arial" color="#04765c"><b><u>Pick a Chapter!</u></b></font></center>
+	<br>
+<!-- Chapter 1--> 
+<button type="button" id="chapterOne" class="location" onclick="homeFirst()"><b>Chapter One</b></button>
+<br>
+
+</div>
+<!-- bye--> 
 </body>
 </html>
