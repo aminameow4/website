@@ -5,7 +5,7 @@
 </title>
 <link rel="stylesheet" type="text/css" href="./ZF.css" >
 </head>
-<body bgcolor="##9a94bc" link="antiquewhite"> 
+<body bgcolor="#9a94bc" link="antiquewhite"> 
 <center> <font size = "24" color="white" face="arial" > Zodiac Family- Archive  <br> <a href="./ZF-home.html"><img src="../Images/ZF-Banner.png" style="width:65%" alt="All Together.png"></a> </font> </center> 
 <!-- table start--> 
 <center> 
@@ -23,34 +23,47 @@
 	<br>
 	<br>
 	<br>
-<!--start here-->
 <!-- first last -->
-<div style="background-color:#E9FFD1"><font face="Arial" size="5"><center>
-Looking for a specific page? Check here! 
+<div><font face="Arial" color="#ef3b68" size="6"><center>
+Lost? Re-find your place here! 
 <br>
-
-<a href="./ZF-home.html"><font face="Arial" size="5">First</font></a>
-	| 
-<a href="./A1/Site/ZF-3.html"><font face="Arial" size="5">Latest</font></a>
+<!-- JS--> 
+<script type="text/javascript">
+var thisPage= 0; 
+</script>
+<script src="../buttons/ZF-Pages.js"></script>
+	
+<!-- start page button-->
+<button type="button" id="first" class="archive" onclick="homeFirst()">First</button>
+||||
+<a href="A1/Pages/1.png"></a>	
+<!-- latest page button--> 
+<button type="button" id="latest" class="archive" onclick="homeLatest()">Latest</button>
 </center>
 </font> 
 </div>
 <br>
 <!-- actual archive--> 
+
+<div id="Find">
+<!--center><font size="7" face="Arial" color="#7BD457"><b><u>Comics By Chapter</u></b></font></center>
+<br>
 <center>
-<div style="background-color:#E9FFD1">
-<a href="./ZF-home.html">
-<font face="Arial" size="5"><b><u> Chapter 1 </u></b></font></a>
-<font face="Arial" color="#DAB0FF" size="5">
-<br>
-<a href="./ZF-home.html"><font face="Arial" size="5">Page 1</font></a>
-<br>
-<a href="./A1/Site/ZF-2.html"><font face="Arial" size="5">Page 2</font></a>
-<br>
-<a href="./A1/Site/ZF-3.html"><font face="Arial" size="5">Page 3</font></a>
-<br>
-</font> 
-</div>
+<select class="archive">
+	<option value="1" onClick="homeFirst()">Page 1</option>
+<option value="2">Page 2</option>
+</select>
 </center>
+<br-->
+<center><font size="7" face="Arial" color="#ef3b68"><b><u>Comics By Chapter</u></b></font></center>
+	<br>
+<!-- Chapter 1--> 
+<font size="6" face="Arial" color="#ef3b68"><b>Chapter One</b></font>
+<br>
+<img src="./A1/Pages/1.png" id="chapterOne" class="archive" onclick="homeFirst()">
+<br>
+
+</div>
+<!-- bye--> 
 </body>
 </html>
