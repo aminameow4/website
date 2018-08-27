@@ -27,3 +27,9 @@ button{
     display: inline-block;
     font-size: 16px;
 }
+img.logo{
+	height:300px;
+	width:300px;
+	border: 5px solid whitesmoke;
+	border-radius: 5%;
+}
