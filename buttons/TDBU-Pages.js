@@ -1,11 +1,11 @@
 // JavaScript Document
-//COMIC: LIFE'S EXPECTATIONS
-//BLANK: ../../A1/Site/LE-0X.html
+//COMIC: THE DIFFERENCES BETWEEN US
+//BLANK: ../../A1/Site/TDBU-0X.html
 
 //current pages: 3
 
 // Pages array (include links)
-var pageNumber = ["../../A1/Site/LE-01.html", "../../A1/Site/LE-02.html", "../../A1/Site/LE-03.html",];
+var pageNumber = ["../../A1/Site/TDBU-01.html", "../../A1/Site/TDBU-02.html", "../../A1/Site/TDBU-03.html",];
 var i= (pageNumber.length-1);
 var thisPage=thisPage-1; 
 
@@ -19,12 +19,12 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+"le"+pageNumber[0]; 
+	   	   document.location="./"+"tdbu"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+"le"+pageNumber[i]; 
+	   	   document.location="./"+"tdbu"+pageNumber[i]; 
 }
 
 //first button

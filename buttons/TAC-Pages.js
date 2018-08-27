@@ -1,11 +1,11 @@
 // JavaScript Document
-//COMIC: LIFE'S EXPECTATIONS
-//BLANK: ../../A1/Site/LE-0X.html
+//COMIC: THE ADVENTURE CREW
+//BLANK: ../../A1/Site/TAC-0X.html
 
 //current pages: 3
 
 // Pages array (include links)
-var pageNumber = ["../../A1/Site/LE-01.html", "../../A1/Site/LE-02.html", "../../A1/Site/LE-03.html",];
+var pageNumber = ["../../A1/Site/TAC-01.html", "../../A1/Site/TAC-02.html", "../../A1/Site/TAC-03.html",];
 var i= (pageNumber.length-1);
 var thisPage=thisPage-1; 
 
@@ -19,12 +19,12 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+"le"+pageNumber[0]; 
+	   	   document.location="./"+"tac"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+"le"+pageNumber[i]; 
+	   	   document.location="./"+"tac"+pageNumber[i]; 
 }
 
 //first button
