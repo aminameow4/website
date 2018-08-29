@@ -49,6 +49,9 @@ img.archive{
 	border: 15px solid whitesmoke;
 	border-radius: 5%;
 }
+img.button{
+	
+}
 select.archive {
     width: 50%;
     padding: 16px 20px;
