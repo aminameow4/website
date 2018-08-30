@@ -45,6 +45,12 @@ else{
 document.location=pageNumber[thisPage]; 
 } }
 
+//middle button
+function middle(){
+"use strict"; 
+//for loop
+window.alert("honk honk"); }
+
 //next button
 function next(){
 "use strict"; 
@@ -81,6 +87,9 @@ document.getElementById("first").onclick = function() {
 document.getElementById("previous").onclick = function() {
 "use strict"; 
 	previous();};
+document.getElementById("middle").onclick = function() {
+"use strict"; 
+	middle();};
 document.getElementById("next").onclick = function() {
 "use strict"; 
 	next();};
