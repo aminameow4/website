@@ -57,28 +57,13 @@
 <div class="discordAd">
 <!-- Slideshow container -->
 <script src="Discord-Slideshow/Slideshow-JS.js"></script>
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="./Discord-Slideshow/p1.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="./Discord-Slideshow/p2.png" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="./Discord-Slideshow/p3.png" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="slideshow">
+<!-- js--> 
+<script src="Discord-Slideshow/Slideshow-JS.js">
+window.onload = showSlides(); 
+</script>
+  <!-- Image -->
+<div id="image"> 
 </div>
 <br>
 <!-- The dots/circles -->
@@ -95,64 +80,7 @@
 <!-- email--> 
 <center><font size="6" face="arial" color="antiquewhite">Felhzverse Email: <a href="mailto:felhzversecomics@gmail.com"><font size="6" face="arial" color="antiquewhite">felhzversecomics@gmail.com</font></a></font></center>
 </div>
-<!-- updates-->
-<!-- news button--> 
-<center><button type="button" onclick="News()">
-<font size="6"><b>Hide/Show Updates</b></font>
-</button></center>
-<center>
-<!-- news div-->
-<div id="news">
-<center><font size="8" face="arial" color="antiquewhite">News/Updates</font></center>
-<!-- June 27, 2018-->
-<div class="updates" style="width:80">
-<font face="arial" color="antiquewhite" size="5"><center>
-<b><u>Site Update- June 28, 2018</u></b>
-<br>
-Today I got rid of the chat page, and instead replaced it with our new Social Media section on the front page (located above). In addition, the Species Index was updated. 
-</center>
-</font>
 </div>
-<!-- June 26 2018--> 
-<div class="updates" style="width:80">
-<font face="arial" color="antiquewhite" size="5"><center>
-<b><u>Site Update- June 26, 2018</u></b>
-<br>
-Finally added the Species Index (located in <a href="./Extra-Page.html"><font face="arial" color="white" size="5">Extras</font></a>! You can go here to check out information on all the species in our stories, if any concepts confuse you, or perhaps you want to make characters of your own! In weeks to come, we'll hopefully have some character info up for people to read!
-</center>
-</font>
-</div>
-<!-- June 21 2018--> 
-<div class="updates" style="width:80">
-<font face="arial" color="antiquewhite" size="5"><center>
-<b><u>Site Update- June 21, 2018</u></b>
-<br>
-I'm going to start including logs of how the website's been updated here- today I added the contact page and made minor adjustments to the code in portraits on various user pages. -Amina
-</center>
-</font>
-</div>
-<!-- update template--> 
-<!--div class="updates" style="width:80">
-<font face="arial" color="antiquewhite" size="5"><center>
-<b><u>Update- Month X, 201X</b>
-<br>
-text
-</center>
-</font>
-</div-->
-</div>
-</center>
-<!-- news button JS--> 
-<script>
-function News() {
-    var x = document.getElementById("news");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-</script>
 <br>
 <br>
 <br>
