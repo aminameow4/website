@@ -1,0 +1,47 @@
+/* hi */
+body{
+	color: antiquewhite;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+    background-image: url("../Images/trees.png");
+}
+a:visited {
+    color:antiquewhite;
+}
+p {
+    text-indent: 50px;
+}
+p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+div {
+	background-color: #C98252;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+/*uwo*/
+div.discordAd{
+	border: 10px solid white;
+	background-color:#7289DA;
+	padding: 10px;
+    margin: 10px;
+}
+img.icon{
+	height:150;
+	width:150;
+	border: 5px solid green;
+	border-radius: 5%;
+}
+img.ad{
+	height:640;
+	width:480;
+}
+iframe.disc{
+	border: 20px solid antiquewhite;
+	border-radius: 5%;
+	resize: both;
+    overflow: auto;
+}
+/*I'm a sad bitch/*
