@@ -1,5 +1,5 @@
 (function() {
-	
+	"use strict";
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
 		this.init();

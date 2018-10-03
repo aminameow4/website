@@ -1,72 +1,51 @@
+/* hi */
 body{
-	color: antiquewhite;
+	color: #FFFEFC;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
-    background-image: url("../Images/trees.png");
+	background-color: #578DA9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+a{
+    color: #FFFEFC;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
 a:visited {
-    color:antiquewhite;
+    color: #FFFEFC;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+}
+footer{
+	display: block;
+	background-color: #A99186;
+	color: antiquewhite;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
 }
 p {
     text-indent: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #FFFEFC;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
-p {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+ul{
+	font-size: 6;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 div {
-	background-color: #C98252;
-    border: 25px solid green;
+	background-color: #A3CCD9;
+    border: 25px solid #A99186;
     padding: 25px;
     margin: 25px;
 }
-/* People borders*/ 
-div.borderAlice{
-	
-	border-color:antiquewhite;
-}
-div.borderAmina{
-	
-	border-color:#fe6761;
-}
-div.borderChristine{
-	
-	border-color:white;
-}
-div.borderGianna{
-	
-	border-color:darkgreen;
-}
-div.borderKienen{
-	
-	border-color:#D25A7E;
-}
-div.borderShiro{
-	
-	border-color:#98ff98;
-}
-/* comic borders*/ 
-div.borderDGLITW{
-	
-	border-color:maroon;
-}
-div.borderZF{
-	
-	border-color:#F7FF74;
-}
-div.borderTDBU{
-	
-	border-color:#F7FF74;
-}
-div.borderLE{
-	
-	border-color:#F7FF74;
-}
-div.borderDTIS{
-	
-	border-color:#ff557f;
-}
-div.borderTAC{
-	
-	border-color:#F7FF74;
+img.trees{
+	border-radius: 50px; 
 }

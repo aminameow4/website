@@ -1,11 +1,11 @@
 button{
-background-color:green ;
+background-color:#D59395 ;
 text-align: center;
-border: 5px antiquewhite;
-color:antiquewhite;
+border: 5px #FFFEFC;
+color:#FFFEFC;
 border-radius:10%;
 }
 img.info{
 	width: 80%;
-	border: thin solid antiquewhite; 
+	border: thin solid #FFFEFC; 
 }

@@ -1,17 +1,27 @@
 /* hi */
 body{
-	color: antiquewhite;
+	color: #FFFEFC;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
-    background-image: url("../Images/trees.png");
+	background-color: #578DA9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+a{
+    color: #FFFEFC;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
 a:visited {
-    color:antiquewhite;
+    color: #FFFEFC;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
 footer{
 	display: block;
-	background-color: #C98252;
+	background-color: #A99186;
 	color: antiquewhite;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	size: 5; 
@@ -21,10 +31,18 @@ footer{
 p {
     text-indent: 50px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #FFFEFC;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+}
+ul{
+	font-size: 6;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 div {
-	background-color: #C98252;
-    border: 25px solid green;
+	background-color: #A3CCD9;
+    border: 25px solid #A99186;
     padding: 25px;
     margin: 25px;
 }
@@ -91,7 +109,7 @@ div.discordAd{
 img.icon{
 	height:150;
 	width:150;
-	border: 5px solid green;
+	border: 5px solid #FFFEFC;
 	border-radius: 5%;
 }
 img.ad{
@@ -100,6 +118,9 @@ img.ad{
 }
 img.social{
 	border: 5px solid antiquewhite;
+}
+img.trees{
+	border-radius: 50px; 
 }
 iframe.disc{
 	border: 20px solid antiquewhite;
