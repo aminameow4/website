@@ -1,21 +1,20 @@
 // JavaScript Document
-//COMIC: THE ADVENTURE CREW
-//BLANK: ../../A1/Site/TAC-0X.html
+//FELHZVERSE MEDIA ARCHIVE
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "../../A1/Site/TAC-01.html";
-pageNumber[1]= "../../A1/Site/TAC-02.html";
-pageNumber[2]= "../../A1/Site/TAC-03.html";
+pageNumber[0]= "./Media/Media-01.html";
 /*
-pageNumber[3]= "../../A1/Site/TAC-04.html";
-pageNumber[4]= "../../A1/Site/TAC-05.html";
-pageNumber[5]= "../../A1/Site/TAC-06.html";
-pageNumber[6]= "../../A1/Site/TAC-07.html";
-pageNumber[7]= "../../A1/Site/TAC-08.html";
-pageNumber[8]= "../../A1/Site/TAC-09.html";
-pageNumber[9]= "../../A1/Site/TAC-10.html";
-pageNumber[10]= "../../A1/Site/TAC-11.html";
+pageNumber[1]= "./Media/Media-02.html";
+pageNumber[2]= "./Media/Media-03.html";
+pageNumber[3]= "./Media/Media-04.html";
+pageNumber[4]= "./Media/Media-05.html";
+pageNumber[5]= "./Media/Media-06.html";
+pageNumber[6]= "./Media/Media-07.html";
+pageNumber[7]= "./Media/Media-08.html";
+pageNumber[8]= "./Media/Media-09.html";
+pageNumber[9]= "./Media/Media-10.html";
+pageNumber[10]= "./Media/Media-11.html";
 */
 
 //actual code
@@ -32,12 +31,12 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+"tac"+pageNumber[0]; 
+	   	   document.location="./"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+"tac"+pageNumber[i]; 
+	   	   document.location="./"+pageNumber[i]; 
 }
 
 //first button
@@ -58,6 +57,14 @@ else{
 document.location=pageNumber[thisPage]; 
 } }
 
+//random button
+function random(){
+"use strict";
+var r= Math.floor((Math.random() *i));
+	window.alert(r);
+	   	   document.location=pageNumber[r]; 
+}
+
 //next button
 function next(){
 "use strict"; 
@@ -75,17 +82,6 @@ function latest(){
 "use strict"; 
 	   	   document.location=pageNumber[i]; 
 }
-
-//PAGE SHIT
-function altText() {
-	"use strict";
-    var desc = document.getElementById("page").alt;
-    window.alert(desc); 
-}
-
-document.getElementById("page").onclick = function() {
-"use strict"; 
-	altText();};
 
 //EXECUTE
 document.getElementById("first").onclick = function() {

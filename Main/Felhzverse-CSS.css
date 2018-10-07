@@ -118,6 +118,7 @@ img.ad{
 }
 img.social{
 	border: 5px solid antiquewhite;
+	width: auto ;
 }
 img.trees{
 	border-radius: 50px; 

@@ -2,10 +2,23 @@
 //COMIC: ZODIAC FAMILY
 //BLANK: ../../A1/Site/ZF-0X.html
 
-//current pages: 3
-
 // Pages array (include links)
-var pageNumber = ["../../A1/Site/ZF-01.html", "../../A1/Site/ZF-02.html", "../../A1/Site/ZF-03.html",];
+var pageNumber=[];
+pageNumber[0]= "../../A1/Site/ZF-01.html";
+pageNumber[1]= "../../A1/Site/ZF-02.html";
+pageNumber[2]= "../../A1/Site/ZF-03.html";
+/*
+pageNumber[3]= "../../A1/Site/ZF-04.html";
+pageNumber[4]= "../../A1/Site/ZF-05.html";
+pageNumber[5]= "../../A1/Site/ZF-06.html";
+pageNumber[6]= "../../A1/Site/ZF-07.html";
+pageNumber[7]= "../../A1/Site/ZF-08.html";
+pageNumber[8]= "../../A1/Site/ZF-09.html";
+pageNumber[9]= "../../A1/Site/ZF-10.html";
+pageNumber[10]= "../../A1/Site/ZF-11.html";
+*/
+
+//actual code
 var i= (pageNumber.length-1);
 var thisPage=thisPage-1; 
 
