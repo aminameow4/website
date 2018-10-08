@@ -3,18 +3,18 @@
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "./Media/Media-01.html";
+pageNumber[0]= "./Media-01.html";
 /*
-pageNumber[1]= "./Media/Media-02.html";
-pageNumber[2]= "./Media/Media-03.html";
-pageNumber[3]= "./Media/Media-04.html";
-pageNumber[4]= "./Media/Media-05.html";
-pageNumber[5]= "./Media/Media-06.html";
-pageNumber[6]= "./Media/Media-07.html";
-pageNumber[7]= "./Media/Media-08.html";
-pageNumber[8]= "./Media/Media-09.html";
-pageNumber[9]= "./Media/Media-10.html";
-pageNumber[10]= "./Media/Media-11.html";
+pageNumber[1]= "./Media-02.html";
+pageNumber[2]= "./Media-03.html";
+pageNumber[3]= "./Media-04.html";
+pageNumber[4]= "./Media-05.html";
+pageNumber[5]= "./Media-06.html";
+pageNumber[6]= "./Media-07.html";
+pageNumber[7]= "./Media-08.html";
+pageNumber[8]= "./Media-09.html";
+pageNumber[9]= "./Media-10.html";
+pageNumber[10]= "./Media-11.html";
 */
 
 //actual code
@@ -31,14 +31,20 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+pageNumber[0]; 
+	   	   document.location="./Media/"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+pageNumber[i]; 
+	   	   document.location="./Media/"+pageNumber[i]; 
 }
-
+//random
+function homeRandom(){
+"use strict"; 
+var r= Math.floor((Math.random() *i));
+	window.alert(r);
+				document.location="./Media/"+pageNumber[r]; 
+}
 //first button
 function first(){
 "use strict";
