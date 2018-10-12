@@ -1,22 +1,20 @@
 // JavaScript Document
-//COMIC: DON'T GET LOST IN THE WOODS
-//BLANK: ../../A1/Site/DGLITW-0X.html
-
-//current pages: 3
+//FELHZVERSE WIKIPEDIA™
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "../../A1/Site/DGLITW-01.html";
-/* pageNumber[1]= "../../A1/Site/DGLITW-02.html";
-pageNumber[2]= "../../A1/Site/DGLITW-03.html";
-pageNumber[3]= "../../A1/Site/DGLITW-04.html";
-pageNumber[4]= "../../A1/Site/DGLITW-05.html";
-pageNumber[5]= "../../A1/Site/DGLITW-06.html";
-pageNumber[6]= "../../A1/Site/DGLITW-07.html";
-pageNumber[7]= "../../A1/Site/DGLITW-08.html";
-pageNumber[8]= "../../A1/Site/DGLITW-09.html";
-pageNumber[9]= "../../A1/Site/DGLITW-10.html";
-pageNumber[10]= "../../A1/Site/DGLITW-11.html";
+pageNumber[0]= "./IF-01.html";
+/*
+pageNumber[1]= "./IF-02.html";
+pageNumber[2]= "./IF-03.html";
+pageNumber[3]= "./IF-04.html";
+pageNumber[4]= "./IF-05.html";
+pageNumber[5]= "./IF-06.html";
+pageNumber[6]= "./IF-07.html";
+pageNumber[7]= "./IF-08.html";
+pageNumber[8]= "./IF-09.html";
+pageNumber[9]= "./IF-10.html";
+pageNumber[10]= "./IF-11.html";
 */
 
 //actual code
@@ -33,14 +31,19 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+"dglitw"+pageNumber[0]; 
+	   	   document.location="./IF/"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+"dglitw"+pageNumber[i]; 
+	   	   document.location="./IF/"+pageNumber[i]; 
 }
-
+//random
+function homeRandom(){
+"use strict"; 
+var r= Math.floor((Math.random() *i));
+				document.location="./IF/"+pageNumber[r]; 
+}
 //first button
 function first(){
 "use strict";
@@ -58,6 +61,14 @@ window.alert("Welcome back to the start!");
 else{ 
 document.location=pageNumber[thisPage]; 
 } }
+
+//random button
+function random(){
+"use strict";
+var r= Math.floor((Math.random() *i));
+	window.alert(r);
+	   	   document.location=pageNumber[r]; 
+}
 
 //next button
 function next(){

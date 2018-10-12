@@ -10,6 +10,15 @@ a:unvisited{
 a:visited{
 	color: #9b5094; 
 }
+footer{
+	display: block;
+	background-color: #cdf7f6;
+	color: #9b5094;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
+}
 div {
 	background-color: #8fb8de;
 	border-color:#cdf7f6;

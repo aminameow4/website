@@ -42,7 +42,6 @@ function homeLatest(){
 function homeRandom(){
 "use strict"; 
 var r= Math.floor((Math.random() *i));
-	window.alert(r);
 				document.location="./Media/"+pageNumber[r]; 
 }
 //first button

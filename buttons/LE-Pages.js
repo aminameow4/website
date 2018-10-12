@@ -5,9 +5,8 @@
 // Pages array (include links)
 var pageNumber=[];
 pageNumber[0]= "../../A1/Site/LE-01.html";
-pageNumber[1]= "../../A1/Site/LE-02.html";
+/* pageNumber[1]= "../../A1/Site/LE-02.html";
 pageNumber[2]= "../../A1/Site/LE-03.html";
-/*
 pageNumber[3]= "../../A1/Site/LE-04.html";
 pageNumber[4]= "../../A1/Site/LE-05.html";
 pageNumber[5]= "../../A1/Site/LE-06.html";
