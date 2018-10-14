@@ -1,9 +1,6 @@
 // JavaScript Document
 //COMIC: DON'T GET LOST IN THE WOODS
 //BLANK: ../../A1/Site/DGLITW-0X.html
-
-//current pages: 3
-
 // Pages array (include links)
 var pageNumber=[];
 pageNumber[0]= "../../A1/Site/DGLITW-01.html";
@@ -90,5 +87,12 @@ document.getElementById("next").onclick = function() {
 document.getElementById("latest").onclick = function() {
 "use strict"; 
 	latest();};
-//end 
+
+//ARCHIVE
+function archiveOne(){
+"use strict";
+	window.alert("./"+"dglitw"+pageNumber[1]);
+	   	   document.location="./"+"dglitw"+pageNumber[1]; 
+}
+
 

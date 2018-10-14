@@ -2,13 +2,27 @@ body{
 	color: darkgray;
 	text-align: center;
 	text-align: justify;
-	font-size: 5
+	font-size: 5;
+	bgcolor: #7BD457;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
 	color: darkgray; 
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:visited{
-	color: darkgray; 
+	color: darkgray;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+footer{
+	display: block;
+	background-color: paleturquoise;
+	color: #fe6761;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
 }
 div {
 	background-color: paleturquoise;

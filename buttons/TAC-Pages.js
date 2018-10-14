@@ -100,5 +100,14 @@ document.getElementById("next").onclick = function() {
 document.getElementById("latest").onclick = function() {
 "use strict"; 
 	latest();};
-//end 
+
+//ARCHIVE
+function archiveOne(){
+"use strict";
+	window.alert("./"+"tac"+pageNumber[1]);
+	   	   document.location="./"+"tac"+pageNumber[1]; 
+}
+
+
+
 

@@ -4,27 +4,22 @@
 <title>Don't Get Lost in the Woods- Archive 
 </title>
 <link rel="stylesheet" type="text/css" href="./DGLITW.css" >
+<link rel="stylesheet" type="text/css" href="./DGLITW-Navbar.css" >
 </head>
-<body bgcolor="#73668e" link="antiquewhite"> 
-<center> <font size = "24" color="white" face="arial" > Don't Get Lost in the Woods- Archive  <br> <a href="./DGLITW-home.html"><img src="../Images/DGLITW-Banner.png" style="width:65%" alt="All Together.png"></a> </font> </center> 
-<!-- table start--> 
-<center> 
-<table colspan="7" align="left" valign="bottom" border="10" bordercolor="#6E2C00" bgcolor="#AFD7B4" height="50" style="width:100%">
-<tr>
-<td align="center"><a href="./DGLITW-home.html"> <font size="5" color="#C98252" face="arial">Home</font></a></td> 
-<td align="center"><a href="./DGLITW-about.html"> <font size="5" color="#C98252" face="arial">About</font></a></td> 
-<td align="center"><a href="./DGLITW-characters.html"> <font size="5" color="#C98252" face="arial">Characters</font></a></td> 
-<td align="center"><a href="./DGLITW-archive.html"> <font size="5" color="#C98252" face="arial">Archive</font></a></td> 
-<td align="center"><a href="../Main/Home-Page.html"> <font size="5" color="#C98252" face="arial">Felhzverse  </font></a></td> 
-</tr>
-</table>
-</center>  
-<!-- end of Table of Contents-->
-	<br>
-	<br>
-	<br>
-<!-- start here-->
-<!-- first last -->
+<body> 
+<header id="top">
+<center><a href="./DGLITW-home.html"><img src="../Images/DGLITW-Banner.png" style="width:65%" alt="DGLITW Head.png"></a></center> 
+<center>
+<div class="navbar">
+<div class="dropdown"><a href="./DGLITW-home.html"> <font size="5" color="#eeeedd" face="arial">Home</font></a></div>
+<div class="dropdown"><a href="./DGLITW-about.html"> <font size="5" color="#eeeedd" face="arial">About</font></a></div>
+<div class="dropdown"><a href="./DGLITW-characters.html"> <font size="5" color="#eeeedd" face="arial">Characters</font></a></div>
+<div class="dropdown"><a href="./DGLITW-archive.html"> <font size="5" color="#eeeedd" face="arial">Archive</font></a></div>
+<div class="dropdown"><a href="../Main/Home-Page.html"> <font size="5" color="#eeeedd" face="arial">Felhzverse  </font></a></div>
+</div>
+</center>
+</header>
+<main>
 <div><font face="Arial" color="#04765c" size="6"><center>
 Lost? Re-find your place here! 
 <br>
@@ -33,19 +28,14 @@ Lost? Re-find your place here!
 var thisPage= 0; 
 </script>
 <script src="../buttons/DGLITW-Pages.js"></script>
-	
-<!-- start page button-->
 <button type="button" id="first" class="archive" onclick="homeFirst()">First</button>
 ||||
 <a href="A1/Pages/1.png"></a>	
-<!-- latest page button--> 
 <button type="button" id="latest" class="archive" onclick="homeLatest()">Latest</button>
 </center>
 </font> 
 </div>
 <br>
-<!-- actual archive--> 
-
 <div id="Find">
 <!--center><font size="7" face="Arial" color="#7BD457"><b><u>Comics By Chapter</u></b></font></center>
 <br>
@@ -56,13 +46,20 @@ var thisPage= 0;
 </select>
 </center>
 <br-->
-<center><font size="7" face="Arial" color="#04765c"><b><u>Pick a Chapter!</u></b></font></center>
+<center><font size="7" face="Arial"><b><u>Pick a Chapter!</u></b></font></center>
 	<br>
-<!-- Chapter 1--> 
-<button type="button" id="chapterOne" class="location" onclick="homeFirst()"><b>Chapter One</b></button>
+<button type="button" id="Prologue" class="location" onclick="homeFirst()"><b>Prologue</b></button>
+<!--button type="button" id="chapterOne" class="location" onclick="archiveOne()"><b>Chapter One</b></button-->
 <br>
-
 </div>
-<!-- bye--> 
+</main>
+<footer>
+&nbsp;Felhzverse™ is run by a group of friends who love to create stories. We only take credit for creating the universe, and helping it grow. If you have any questions, comments, or concerns, please contact us on our email or discord! We will try to respond as soon as possible.
+<br>
+	Email: <a href="mailto:felhzversecomics@gmail.com"><font color="#eeeedd">felhzversecomics@gmail.com</font></a>
+<br>
+	<a href="../Main/Home-Page.html"><font color="#eeeedd">Felhzverse Home</font></a> | <a href="./DGLITW-Home.html"><font color="#eeeedd">Don't Get Lost in the Woods Home</font></a>
+	<center> <a href="#top"><font color="#eeeedd">Back to Top</font></a></center>
+</footer>
 </body>
 </html>

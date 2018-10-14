@@ -1,14 +1,24 @@
 body{
-	color: #04765c;
+	color: #eeeedd;
 	text-align: center;
 	text-align: justify;
-	font-size: 5
+	font-size: 5;
+	background-color: #aa9988;
 }
 a:unvisited{
-	color: #04765c; 
+	color: #eeeedd; 
 }
 a:visited{
-	color: #04765c; 
+	color: #eeeedd; 
+}
+footer{
+	display: block;
+	background-color: #993344;
+	color: #eeeedd;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
 }
 h1{
 	font-size: 60px;
@@ -19,11 +29,10 @@ h2{
 	text-decoration: underline;
 }
 div {
-	background-color: #877A83;
-    border: 25px solid #8E3843;
+	background-color: #993344;
+    border: 25px solid #6edfa6;
     padding: 25px;
     margin: 25px;
-	border-color:#8E3843;
 }
 iframe{
 	overflow: hidden;
@@ -31,12 +40,12 @@ iframe{
 	height: 500px; 
 }
 iframe.chapter{
-	border: 15px solid #04765c;
+	border: 15px solid #6edfa6;
 }
 button{
-	 background-color: #04765c;
-    border: 5px solid #8E3843;
-    color: whitesmoke;
+	 background-color: #6edfa6;
+    border: 5px solid #993344;
+    color: #eeeedd;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -44,9 +53,9 @@ button{
     font-size: 16px;
 }
 button.archive{
-	background-color: #04765c;
+	background-color: #6edfa6;
     border: 5px solid #8E3843;
-    color: whitesmoke;
+    color: #eeeedd;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -54,10 +63,9 @@ button.archive{
     font-size: 16px;
 }
 button.location{
-	background-color: lightgray;
     border: 15px solid #8E3843;
 	border-radius: 10px; 
-    color: #04765c;
+    color: #EEEEDD;
     padding: 20px 32px;
     text-align: center;
     text-decoration: bold;
@@ -80,5 +88,5 @@ select.archive {
     width: 50%;
     padding: 16px 20px;
     border: 4px solid whitesmoke;
-    background-color: #04765c;
+    background-color: #6edfa6;
 }

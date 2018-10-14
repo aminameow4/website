@@ -99,5 +99,14 @@ document.getElementById("next").onclick = function() {
 document.getElementById("latest").onclick = function() {
 "use strict"; 
 	latest();};
-//end 
+
+//ARCHIVE
+function archiveOne(){
+"use strict";
+	window.alert("./"+"zf"+pageNumber[1]);
+	   	   document.location="./"+"zf"+pageNumber[1]; 
+}
+
+
+
 

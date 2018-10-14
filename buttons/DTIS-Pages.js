@@ -108,5 +108,14 @@ document.getElementById("next").onclick = function() {
 document.getElementById("latest").onclick = function() {
 "use strict"; 
 	latest();};
-//end 
+
+//ARCHIVE
+function archiveOne(){
+"use strict";
+	window.alert("./"+"dtis"+pageNumber[1]);
+	   	   document.location="./"+"dtis"+pageNumber[1]; 
+}
+
+
+
 
