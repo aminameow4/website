@@ -2,13 +2,23 @@ body{
 	color: darkgray;
 	text-align: center;
 	text-align: justify;
-	font-size: 5
+	font-size: 5;
+	background-color: #69A2B0;
 }
 a:unvisited{
 	color: darkgray; 
 }
 a:visited{
 	color: darkgray; 
+}
+footer{
+	display: block;
+	background-color: #659157;
+	color: #FFCAB1;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
 }
 h1{
 	font-size: 60px;

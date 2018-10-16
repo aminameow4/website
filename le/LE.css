@@ -2,13 +2,23 @@ body{
 	color: #ef3b68;
 	text-align: center;
 	text-align: justify;
-	font-size: 5
+	font-size: 5;
+	background-color: #659157;
 }
 a:unvisited{
 	color: #ef3b68; 
 }
 a:visited{
 	color: #ef3b68; 
+}
+footer{
+	display: block;
+	background-color: #00b4cc;
+	color: #ffbc2d;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
 }
 div {
 	background-color: #ffbc2d;
