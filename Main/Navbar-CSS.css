@@ -1,9 +1,9 @@
  /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #A3CCD9;
+  background-color: #EC9A72;
   font-family: Arial;
-  border-color: #A99186;
+  border-color: #E76043;
   display:inline-block;
   padding: none; 
   width: 90%;
@@ -18,7 +18,7 @@
   padding: 5px; 
   outline: none; 
   align-content: right;
-  background-color: #A3CCD9;
+  background-color: #EC9A72;
   text-align: center;
   height:5%;
   width: 10%; 
@@ -38,7 +38,7 @@
   outline: none;
   color: #C98252;
   padding: none; 
-  background-color: #AFD7B4;
+  background-color: #EC9A72;
   font-family: Arial; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   text-align: center;
@@ -56,9 +56,9 @@
   position: absolute;
   right: 300px; 
   top: 560px; 
- border-color: #6E2C00;
+ border-color: #E76043;
   border-width: 10px;
-  background-color: #A3CCD9;
+  background-color: #EC9A72;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

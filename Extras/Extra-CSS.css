@@ -1,27 +1,27 @@
 /* hi */
 body{
-	color: #FFFEFC;
+	color: antiquewhite;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
-	background-color: #578DA9;
+	background-color: #CBD76B;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a{
-    color: #FFFEFC;
+    color: antiquewhite;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
 }
 a:visited {
-    color: #FFFEFC;
+    color: antiquewhite;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
 }
 footer{
 	display: block;
-	background-color: #A99186;
+	background-color: #E76043;
 	color: antiquewhite;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	size: 5; 
@@ -41,21 +41,105 @@ ul{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 div {
-	background-color: #A3CCD9;
-    border: 25px solid #A99186;
+	background-color: #EC9A72;
+    border: 25px solid #E76043;
     padding: 25px;
     margin: 25px;
+}
+/* People borders*/ 
+div.borderAlice{
+	
+	border-color:antiquewhite;
+}
+div.borderAmina{
+	
+	border-color:#fe6761;
+}
+div.borderChristine{
+	
+	border-color:white;
+}
+div.borderGianna{
+	
+	border-color:darkgreen;
+}
+div.borderKienen{
+	
+	border-color:#D25A7E;
+}
+div.borderNick{
+	border-color: ghostwhite;
+}
+div.borderShiro{
+	
+	border-color:#98ff98;
+}
+/* comic borders*/ 
+div.borderDGLITW{
+	
+	border-color:maroon;
+}
+div.borderZF{
+	
+	border-color:#9a94bc;
+	
+}
+div.borderTDBU{
+	
+	border-color:#F7FF74;
+}
+div.borderLE{
+	
+	border-color:#F7FF74;
+}
+div.borderDTIS{
+	
+	border-color:#ff557f;
+}
+div.borderTAC{
+	
+	border-color:#F7FF74;
+}
+div.discordAd{
+	border: 10px solid white;
+	background-color:#7289DA;
+	padding: 10px;
+    margin: 10px;
+}
+img.icon{
+	height:150;
+	width:150;
+	border: 5px solid #FFFEFC;
+	border-radius: 5%;
+}
+img.ad{
+	height:640;
+	width:480;
+}
+img.social{
+	border: 5px solid antiquewhite;
+	width: auto ;
 }
 img.trees{
 	border-radius: 50px; 
 }
+iframe.disc{
+	border: 20px solid antiquewhite;
+	border-radius: 5%;
+	resize: both;
+    overflow: auto;
+}
+ul{
+	padding: 25px;
+}
 button{
-	 background-color: #A3CCD9;
-    border: 5px solid #A99186;
-    color: #FFFEFC;
+ background-color: #EC9A72;
+    border: 5px solid #EC9A72;
+    color: antiquewhite;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
+/*I'm a sad bitch/*

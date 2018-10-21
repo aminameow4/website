@@ -66,7 +66,6 @@ document.location=pageNumber[thisPage];
 function random(){
 "use strict";
 var r= Math.floor((Math.random() *i));
-	window.alert(r);
 	   	   document.location=pageNumber[r]; 
 }
 
