@@ -118,7 +118,9 @@ img.ad{
 }
 img.social{
 	border: 5px solid antiquewhite;
-	width: auto ;
+	max-width:80%;
+	max-height:80%;
+	object-fit: cover;
 }
 img.trees{
 	border-radius: 50px; 
