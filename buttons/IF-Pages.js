@@ -56,7 +56,7 @@ function previous(){
 //for loop
 thisPage=thisPage-1; 
 if (thisPage <0) { 
-window.alert("Welcome back to the start!"); 
+window.alert("You're back at the start!"); 
 } 
 else{ 
 document.location=pageNumber[thisPage]; 
@@ -75,7 +75,7 @@ function next(){
 //for loop
 thisPage=thisPage+1;
 if (thisPage > i) { 
-window.alert("All caught up!"); 
+window.alert("Nothing new!"); 
 } 
 else{ 
 document.location=pageNumber[thisPage]; 
