@@ -1,6 +1,3 @@
-function seasonLoad(){
-"use strict"; 
-
 var month;
 month[0] = "January";
 month[1] = "February";
@@ -15,37 +12,38 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 var d = new Date();
-var x= getMonth(); 
+var m = d.getMonth(); 
 var n = month[d.getMonth()];
-window.alert("The current month is "+n);
+function seasonLoad(){
+"use strict"; 
+	
 function Winter(){
 window.alert("Winter");
-document.getElementById("trees").src = "WinterLogoTree.png";
+document.getElementById("trees").src = "../Images/WinterLogoTree.png";
 }
 function Spring(){
 window.alert("Spring");
-document.getElementById("trees").src = "SpringLogoTree.png";
+document.getElementById("trees").src = "../Images/SpringLogoTree.png";
 }
 function Summer(){
 window.alert("Summer");
-document.getElementById("trees").src = "FallLogoTree.png";
+document.getElementById("trees").src = "../Images/SummerLogoTree.png";
 }
 function Fall(){
 window.alert("Fall");
-document.getElementById("trees").src = "FallLogoTree.png";
-document.getElementByClass("p2").style.color = "blue";	
+document.getElementById("trees").src = "../Images/FallLogoTree.png";
 }
 
-if(x<=2){
+if(m<=2){
 Winter(); 
    }
-if(x<=5){
+if(m<=5){
 Spring(); 
    }
-if(x<=8){		
+if(m<=8){		
 Summer(); 
    }
-if(x<=11){ 
+if(m<=11){ 
 Fall(); 
    }
 	

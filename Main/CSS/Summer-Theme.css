@@ -1,28 +1,28 @@
 /* hi */
 body{
-	color: antiquewhite;
+	color: #DB4A23;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
-	background-color: #CBD76B;
+	background-color: #FF9E00;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a{
-    color: antiquewhite;
+    color: #DB4A23;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
 }
 a:visited {
-    color: antiquewhite;
+    color: #DB4A23;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
 }
 footer{
 	display: block;
-	background-color: #E76043;
-	color: antiquewhite;
+	background-color: #375d2d;
+	color: #DB4A23;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	size: 5; 
 	text-indent: 50px;
@@ -31,7 +31,7 @@ footer{
 p {
     text-indent: 50px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: antiquewhite;
+	color: #FFFEFC;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
@@ -41,15 +41,15 @@ ul{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 div {
-	background-color: #EC9A72;
-    border: 25px solid #E76043;
+	background-color: #dfe393;
+    border: 25px solid #375d2d;
     padding: 25px;
     margin: 25px;
 }
 /* People borders*/ 
 div.borderAlice{
 	
-	border-color:antiquewhite;
+	border-color:#DB4A23;
 }
 div.borderAmina{
 	
@@ -109,7 +109,7 @@ div.discordAd{
 img.icon{
 	height:150;
 	width:150;
-	border: 5px solid antiquewhite;
+	border: 5px solid #FFFEFC;
 	border-radius: 5%;
 }
 img.ad{
@@ -117,14 +117,14 @@ img.ad{
 	width:480;
 }
 img.social{
-	border: 5px solid antiquewhite;
+	border: 5px solid #DB4A23;
 	width: auto ;
 }
 img.trees{
 	border-radius: 50px; 
 }
 iframe.disc{
-	border: 20px solid antiquewhite;
+	border: 20px solid #DB4A23;
 	border-radius: 5%;
 	resize: both;
     overflow: auto;
@@ -135,8 +135,8 @@ ul{
 button{
 background-color:green;
 text-align: center;
-border: 5px antiquewhite;
-color:antiquewhite;
+border: 5px #DB4A23;
+color:#DB4A23;
 border-radius:10%;
 }
 /*I'm a sad bitch/*

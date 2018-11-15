@@ -1,10 +1,10 @@
  /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #EC9A72;
+  background-color: #c49d76;
+  color: #f5e5cf;
   font-family: Arial;
-  color: antiquewhite; 
-  border-color: #E76043;
+  border-color: #E47762;
   display:inline-block;
   padding: none; 
   width: 90%;
@@ -18,9 +18,8 @@
   border: none;
   padding: 5px; 
   outline: none; 
-  color: antiquewhite;
   align-content: right;
-  background-color: #EC9A72;
+  background-color: #c49d76;
   text-align: center;
   height:5%;
   width: 10%; 
@@ -28,7 +27,7 @@
 /*dropdown link*/
 .dropdown a{
   font-size: 5;
-  color: antiquewhite;
+  color: #f5e5cf;
   text-align: center;
   padding: 5px; 
   text-decoration: none;
@@ -38,9 +37,9 @@
   font-size: 5; 
   border: none;
   outline: none;
-  color: antiquewhite;
+  color: #f5e5cf;
   padding: none; 
-  background-color: #EC9A72;
+  background-color: #c49d76;
   font-family: Arial; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   text-align: center;
@@ -58,9 +57,9 @@
   position: absolute;
   right: 300px; 
   top: 560px; 
- border-color: #E76043;
+ border-color: #E47762;
   border-width: 10px;
-  background-color: #EC9A72;
+  background-color: #c49d76;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -71,7 +70,7 @@
   float: center;
   display: inline-block;
   font-size: 5;
-  color: antiquewhite;
+  color: #f5e5cf;
   text-align: center;
   padding: 5px;
   text-decoration: none;
