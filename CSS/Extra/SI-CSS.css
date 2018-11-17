@@ -1,0 +1,11 @@
+button{
+background-color:#E76043 ;
+text-align: center;
+border: 5px antiquewhite;
+color: antiquewhite;
+border-radius:10%;
+}
+img.info{
+	width: 80%;
+	border: thin solid antiquewhite; 
+}
